@@ -1,0 +1,5 @@
+q = float(input("Informe quantos quilometros você percorreu: \n"))
+c = float(input("informe a quantidade de combustivel gasto: \n"))
+#media =(q/c)
+#print(f"A média de consumo foi {media:,.2f}")
+print(f"A média de consumo foi \n{(q/c):,.2f}")
